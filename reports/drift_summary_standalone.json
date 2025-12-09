@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-07T22:49:50.930201",
+  "reference_samples": 10000,
+  "current_samples": 10000,
+  "features_analyzed": 32,
+  "report_path": "/home/qthompson/airflow/dags/reports/data_drift_report_standalone.html",
+  "note": "Detailed drift metrics not available - see HTML report",
+  "uploaded_to_cloud": true,
+  "upload_url": "https://app.evidently.cloud/v2/projects/019aeb71-1f12-7de1-91ec-df6a4f28d2b4/explore/019afc4b-6cbb-78d0-8dde-9dbaadff49bd"
+}

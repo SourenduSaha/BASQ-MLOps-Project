@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-12-07T21:03:41.881565",
+  "reference_samples": 10000,
+  "current_samples": 10000,
+  "features_analyzed": 32,
+  "report_path": "/home/qthompson/airflow/dags/reports/data_drift_report_test.html",
+  "report_type": "Snapshot",
+  "evidently_upload_success": true,
+  "evidently_url": "https://app.evidently.cloud/v2/projects/019aeb71-1f12-7de1-91ec-df6a4f28d2b4/explore/019afbea-3d94-7af9-b791-797ecfe687ed",
+  "evidently_result_id": 
