@@ -1,5 +1,5 @@
 """
-Airflow DAG for Pokemon Card Price Prediction Model Training Pipeline - GCP Cloud Composer
+Airflow DAG for Card Price Prediction Model Training Pipeline - GCP Cloud Composer
 Trains models for priceChange24hr, 7d_priceChange, price, and 7d_stddevPopPrice
 with automatic model selection (XGBoost, Random Forest, Gradient Boosting, Ridge)
 
