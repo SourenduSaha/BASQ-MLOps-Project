@@ -1,5 +1,5 @@
 """
-Airflow DAG for Pokemon Card Price Prediction Model Training Pipeline
+Airflow DAG for Card Price Prediction Model Training Pipeline
 Trains models for priceChange24hr, 7d_priceChange, price, and 7d_stddevPopPrice
 with automatic model selection (XGBoost, Random Forest, Gradient Boosting, Ridge)
 """
@@ -892,3 +892,4 @@ task_drift_detection = PythonOperator(
 # Load data first, then train all models in parallel, then test on weekpass data, 
 # then generate summary and detect drift in parallel, as they are independent
 task_load_data >> [task_train_24hr, task_train_7d, task_train_price, task_train_stddev] >> task_test_weekpass >> [task_summary, task_drift_detection]
+
